@@ -1,0 +1,25 @@
+{
+  "name": "playwrightframework",
+  "version": "1.0.0",
+  "description": "This is playwright framework",
+  "main": "index.js",
+  "scripts": {
+    
+    "test": "cucumber-js test",
+    "test:debug": "cross-env PWDEBUG=1 npx playwright test",
+    "test:login": "npx cucumber-js --tags @login",
+    "test:autoAccept": "npx cucumber-js --tags @autoAccept",
+    "test:search": "npx cucumber-js --tags @search",
+    "test:betplace": "npx cucumber-js --tags @betplace"
+  },
+  "author": "Darshana",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.8.0",
+    "@playwright/test": "^1.44.1",
+    "@types/node": "^20.12.13",
+    "cross-env": "^7.0.3",
+    "playwright": "^1.46.0",
+    "ts-node": "^10.9.2"
+  }
+}
