@@ -4,7 +4,6 @@
   "description": "This is playwright framework",
   "main": "index.js",
   "scripts": {
-    
     "test": "cucumber-js test",
     "test:debug": "cross-env PWDEBUG=1 npx playwright test",
     "test:login": "npx cucumber-js --tags @login",
@@ -21,5 +20,13 @@
     "cross-env": "^7.0.3",
     "playwright": "^1.46.0",
     "ts-node": "^10.9.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarshanaCh/playwright1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DarshanaCh/playwright1/issues"
+  },
+  "homepage": "https://github.com/DarshanaCh/playwright1#readme"
 }
